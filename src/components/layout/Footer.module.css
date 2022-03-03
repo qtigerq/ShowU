@@ -1,0 +1,31 @@
+.footer {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li{
+    margin-top: 2em;
+    list-style: none;
+    width: 50px;
+}
+
+.footer ul li svg {
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 0.5em;
+}
+
+.footer ul li svg:hover {
+    font-size: 3em;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 0;
+    color: rgb(158, 204, 241)
+}

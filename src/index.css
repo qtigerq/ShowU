@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 1px;
+}
+
+html, body, #root {
+  background-color: #fcfcfc;
+  color: #444444;
+  height: 100%;
+  width: 100%;
+
+  /*animation-duration: 2s;
+  animation-name: slidein;*/
+}
+
+a{
+  color: #000000;
+}
+
+@keyframes slidein {
+  from {
+
+    opacity: 0;
+  }
+
+  to {
+
+    opacity: 1;
+  }
+}
