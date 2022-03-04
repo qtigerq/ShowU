@@ -3,8 +3,14 @@
 }
 
 .logo{
-    font-size: 3em;
-    margin-right: 0.5em;
+    margin-right: 2em;
+}
+
+.logo img{
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
 }
 
 .header {

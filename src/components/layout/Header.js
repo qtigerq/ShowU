@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 
-import { FaTerminal } from 'react-icons/fa'
+//import { FaTerminal } from 'react-icons/fa'
+import logo from './../../img/logo_tm.png'
 
 import styles from './Header.module.css'
 
@@ -9,7 +10,7 @@ const Header = () => {
         <nav className={styles.header}>
             <div className={styles.left_block}>
                 <div className={styles.logo}>
-                    <FaTerminal />
+                    <Link to='/'> <img src={logo} alt='Tiago Melo'/> </Link>
                 </div>
                 <div>
                     <h1>Tiago Melo</h1>
