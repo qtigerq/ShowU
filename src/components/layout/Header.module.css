@@ -14,35 +14,36 @@
 }
 
 .header {
-    margin-left: 1em;
-    margin-right: 1em;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
-    padding: 1em;
+    padding: 2em;
     margin-bottom: 0.5em;
     height: 10vh;
 }
 
 .header h1{
-
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-name: slidein;
-
 }
 
 @keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 100%;
-      opacity: 0;
+        margin-left: 80%;
+        width: 100%;
+        opacity: 0;
+    }
+
+    40%{
+        margin-left: 80%;
+        width: 100%;
+        opacity: 0;        
     }
   
     to {
-      margin-left: 0%;
-      width: 100%;
-      opacity: 1;
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
     }
 }
 
@@ -50,17 +51,18 @@
     font-style: italic;
     opacity: 100%;
     text-align: center;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 5s;
 }
 
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
-        font-size: 0.8em;
+    }
+    50%{
+        opacity: 0;
     }
     100% {
         opacity: 1;
-        font-size: 1em;
      }
 }
 

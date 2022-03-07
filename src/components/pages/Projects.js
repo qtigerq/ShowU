@@ -7,9 +7,9 @@ const Projects = () => {
             <p>Alguns dos meus projetos e módulos pessoais:</p>
             <div>
             <ul>
-                <li>ISBNow</li>
-                <li>Correio Interno</li>
-                <li>Outro</li>
+                <li><div className={styles.project_card}>Em breve...</div></li>
+                <li><div className={styles.project_card}>Em breve...</div></li>
+                <li><div className={styles.project_card}>Em breve...</div></li>
             </ul>
             </div>
         </div>

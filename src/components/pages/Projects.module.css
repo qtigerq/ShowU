@@ -42,7 +42,7 @@
 }
 
 .projects ul li:hover{
-    background-image: linear-gradient(90deg, #fffdda, #f7ffac);
+    background-image: linear-gradient(90deg, #f5feff, #d7fff5);
     opacity: 100%;
     cursor: pointer;
     transition: 0.5s;

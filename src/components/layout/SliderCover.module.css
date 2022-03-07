@@ -12,9 +12,37 @@
     animation-duration: 2.5s;
     animation-name: slidecover;
     animation-iteration-count: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-.slider h1{
+/*Logo do slider retirado*/
+.logo img{
+    max-width:60px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    animation-duration: 2.3s;
+    animation-name: logofade;
+}
+
+@keyframes logofade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+.slider_welcome{
+    margin-top: 22%;
+    height: 100px;
+}
+
+.slider_welcome h1{
     text-align: center;
     opacity: 0;    
     animation-duration: 2s;
@@ -39,25 +67,27 @@
 
 @keyframes slidewelcome {
     from {
-      margin-top: 22%;
+      padding-top: 2em;
       opacity: 0;
     }
 
     70% {
-        margin-top: 21%;        
+        padding-top: 1em;
         opacity: 1;
     }
 
     to {
-      margin-top: 20%;
+        padding-top: 0em;
       opacity: 0;
     }
   }
 
-.loading{
+.slider_loading{
     animation-duration: 2s;
     animation-name: loadfade;
     opacity: 0;
+    text-align: center;
+    margin-top: 1em;
 }
 
 @keyframes loadfade {
