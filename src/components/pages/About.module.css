@@ -1,7 +1,81 @@
 .about {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;    
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.h1container {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 2em;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.h1container h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.about p{
+    padding-bottom: 0.5em;
+    line-height: 1.3em;
+}
+
+.leftcel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+    width: 70vh;
+    padding: 1em;
+    margin-right: 4em;
+    font-size: 1.2em;
+    border: 8px solid #000000;
+    border-right-width: 3px;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 20px;
+}
+
+.rightcel {
+    width: 70vh;
+    padding: 1em;
+    border: 8px solid #000000;
+    border-right-width: 3px;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 20px;
+}
+
+.rightcel ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    font-size: 8em;
+}
+
+.rightcel ul li{
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.rightcel ul li:hover{
+    color: rgb(158, 204, 241);
+    font-size: 1.2em;
+    transition: 0.5s;
 }
 
 @keyframes fadeInAnimation {
@@ -11,4 +85,17 @@
     100% {
         opacity: 1;
      }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 60%;
+        width: 100%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }
 }

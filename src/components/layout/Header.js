@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom'
-
 import logo from './../../img/logo_tm.png'
-
 import styles from './Header.module.css'
 
 const Header = () => {

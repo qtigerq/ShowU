@@ -1,0 +1,70 @@
+.projectcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-image: linear-gradient(45deg, #FFFFFF, #e7e7e7);
+    border: 8px solid #444444;
+    border-left: 0px;
+    border-right-width: 3px;
+    border-top: 0px;
+    width: 40vh;
+    height: 42vh;
+    padding-top: 2em;
+    border-radius: 20px;
+    opacity: 0.4;
+    transition: 0.5s;
+    margin: 1em;
+    font-size: 1.5vh;
+}
+
+.projectcard:hover{
+    background-image: linear-gradient(90deg, #464646, #807d7d);
+    color: #FFFFFF;
+    opacity: 1;
+    transition: 0.5s;
+    margin: 2em;
+    opacity: 1;
+}
+
+.end{
+    height: 50px;
+}
+
+.projectcard center{
+    background-color: #FFFFFF;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 5px;
+    padding-bottom: 2em;
+}
+
+.projectcard:hover center{
+    visibility: visible;
+    opacity: 0.8;
+    padding: 0.5em;
+    transition: 1.5s;
+    color: #000000;
+}
+
+.projectcard:hover strong{
+    color: rgb(158, 204, 241);
+}
+
+.projectcard h1{
+    margin-bottom: 0.5em;
+    transition: 0.5s;
+    border-bottom: 1px solid #000000;
+}
+
+.projectcard:hover h1{
+    color: rgb(158, 204, 241);
+    border-color: rgb(158, 204, 241);
+    transition: 1s;
+    margin-right: 8em;
+}
+
+.projectcard p{
+    text-align: left;
+    width: 35vh;
+}

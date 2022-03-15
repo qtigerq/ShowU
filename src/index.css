@@ -6,27 +6,12 @@
 }
 
 html, body, #root {
-  background-color: #fcfcfc;
+  background: rgb(240,240,240);
   color: #444444;
   height: 100%;
   width: 100%;
-
-  /*animation-duration: 2s;
-  animation-name: slidein;*/
 }
 
 a{
   color: #000000;
-}
-
-@keyframes slidein {
-  from {
-
-    opacity: 0;
-  }
-
-  to {
-
-    opacity: 1;
-  }
 }

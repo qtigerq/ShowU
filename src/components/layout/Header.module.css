@@ -19,7 +19,8 @@
     flex-direction: row;
     padding: 2em;
     margin-bottom: 0.5em;
-    height: 10vh;
+    border-bottom: 1px solid #000000;
+
 }
 
 .header h1{
@@ -69,25 +70,25 @@
 .header ul {
     list-style: none;
     display: flex;
+    padding-top: 1em;
 }
 
 .header ul li {
     width: 120px;
     height: 40px;
     text-align: center;
-    font-size: 1.1em;
-    transition: 0.3s;
-    font-weight: bold;
-}
-
-.header ul li:hover{
-    font-size: 1.4em;
-    transition: 0.3s;
-    color: rgb(158, 204, 241);
 }
 
 .header a{
-    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+.header a:hover{
+    color: rgb(158, 204, 241);
+    font-size: 1.4em;
+    transition: 0.3s;
 }
