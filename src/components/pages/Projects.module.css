@@ -21,6 +21,7 @@
 
 .projects ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     list-style: none;
     width: 150vh;
@@ -32,5 +33,5 @@
 
 .projects ul li{
     width: 42vh;
-    height: 42vh;
+    height: 50vh;
 }

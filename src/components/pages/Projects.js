@@ -14,7 +14,7 @@ const Projects = () => {
                         title='ISBNow' 
                         desc='Módulo de cadastro de livros utilizando autopreenchimento de dados via código ISBN com integração entre APIs externas.' 
                         techs='ReactJS, JavaScript, Node, Sequelize, Express e MySQL' 
-                        arch='Backend com arquitetura MVC e persistência em banco de dados relacional. Frontend projetado em React totalmente componentizado.'
+                        arch='Backend com arquitetura MVC e padrão REST. Frontend projetado em React.'
                     />
                 </li>                
                 <li>

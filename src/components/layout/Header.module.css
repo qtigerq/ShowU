@@ -4,6 +4,7 @@
 
 .logo{
     margin-right: 2em;
+    height: 60px;
 }
 
 .logo img{
@@ -91,4 +92,8 @@
     color: rgb(158, 204, 241);
     font-size: 1.4em;
     transition: 0.3s;
+}
+
+.header a.active {
+    border-bottom: 1px solid #050505;
 }

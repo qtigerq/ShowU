@@ -16,11 +16,15 @@
     width: 50px;
 }
 
-.footer ul li svg {
+.footer ul li svg, img {
     font-size: 2em;
     cursor: pointer;
     transition: 0.3s;
     margin-bottom: 0.5em;
+}
+
+.footer ul li img {
+    width: 1em;
 }
 
 .footer ul li svg:hover {
@@ -29,4 +33,9 @@
     transition: 0.3s;
     margin-bottom: 0;
     color: rgb(158, 204, 241)
+}
+
+.footer ul li img:hover {
+    width: 1.5em;
+    margin-bottom: 0;
 }
