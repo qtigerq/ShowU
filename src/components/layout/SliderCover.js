@@ -5,7 +5,7 @@ const SliderCover = () => {
     return (
         <div className={styles.slider}>
           <div className={styles.slider_welcome}>
-            <h1>Seja bem vindo</h1>
+            <h1>Um momento...</h1>
           </div>
           <div className={styles.slider_loading}>
             <Loading />
